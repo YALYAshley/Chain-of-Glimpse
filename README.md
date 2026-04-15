@@ -37,21 +37,6 @@ pip install -e ".[torch,metrics]"
 ```
 
 
-## 📊 Datasets
-We conduct experiments on [MSVD-QA](https://github.com/xudejing/video-question-answering) , [MSRVTT-QA](https://github.com/xudejing/video-question-answering), and [ActivityNet-QA](https://github.com/MILVLG/activitynet-qa) datasets. 
-Then extract video frames from each video at 10 fps (https://github.com/boheumd/MA-LMM/blob/main/data/extract_frames.py), based on the annotations of each dataset, object detection with pre-trained RAM++ (https://github.com/IDEA-Research/Grounded-Segment-Anything).
-Suppose your data structure is like:
-```bash
-datasets
-│   ├── MSVD
-│   |   ├── frames
-│   |   ├── videos
-|   |   └── annoations
-|   |   └── objectdetected
-...
-```
-
-
 ## 🗝️ Training & Evaluation
 
 **[Training]** 
